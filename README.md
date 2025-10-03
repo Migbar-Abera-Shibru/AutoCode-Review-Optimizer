@@ -22,3 +22,18 @@ An intelligent, agent-powered system designed to automatically analyze, review, 
 ```bash
 git clone <repository-link-here>
 cd AutoCode_Review_Optimizer
+```
+
+### 2. Set up the Virtual Environment (Recommended)
+
+```bash
+python -m venv venv
+# Activate the environment
+# On Windows:
+.\venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+```
+### 3. Install Dependencies
+Install all required packages from the ```bash requirements.txt ``` file (you will need to create this file containing streamlit, crewai, crewai_tools, pydantic, python-dotenv, etc.).
